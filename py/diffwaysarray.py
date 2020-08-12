@@ -1,0 +1,13 @@
+from numpy import *
+a=array([4,5,6,78,64])
+print('array: ',a)
+a=linspace(1,6,8)
+print('linspace: ',a)
+a=logspace(1,4,10)
+print('logspace : ',a)
+a=arange(6)
+print('arange ',a)
+a=ones(4)
+print('ones: ',a)
+a=zeros(5)
+print('zeros: ',a)

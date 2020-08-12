@@ -1,0 +1,12 @@
+f=open('Myfirst.txt','w')
+f.write('hello this is first file of mine\nhow\'s all\nbye')
+f1=open('my second.txt','w')
+f1.write('second file of Mukesh Singh Manral')
+f1=open('my second.txt','r')
+print(f1.read())
+f=open('Myfirst.txt','a')
+f.write('\nokay i am writing further')
+f1=open('my second.txt','a')
+f1.write('\nit\'s continuing in the file')
+for data in f:
+	print(data)
